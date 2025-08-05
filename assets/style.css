@@ -38,6 +38,11 @@ body {
 	color: #000
 }
 
+.carousel-control-prev, .carousel-control-next {
+	background-color: black;
+	color: white;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -240,6 +245,8 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
+	color: white;
+	border: none;
 	background-color: #5C5909;
 	padding: .5em 1em
 }
